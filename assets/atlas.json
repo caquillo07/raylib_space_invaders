@@ -1,0 +1,979 @@
+{
+    "software": {
+        "name": "rTexPacker v3.0",
+        "url": "https://raylibtech.itch.io/rtexpacker"
+    },
+    "atlas": {
+        "imagePath": "atlas.png",
+        "width": 256,
+        "height": 256,
+        "spriteCount": 107,
+        "isFont": false,
+        "fontSize": 32
+    },
+    "sprites": [
+        {
+            "nameId": "SpaceInvaders_Borders-0",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 3, "y": 3 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Borders-1",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 22, "y": 3 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Borders-2",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 41, "y": 3 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Borders-3",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 60, "y": 3 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Borders-4",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 79, "y": 3 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Borders-5",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 98, "y": 3 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Borders-6",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 117, "y": 3 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Borders-7",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 136, "y": 3 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Borders-8",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 155, "y": 3 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Buttons-0",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 174, "y": 3 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 3, "y": 3, "width": 13, "height": 13 }
+        },
+        {
+            "nameId": "SpaceInvaders_Buttons-1",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 193, "y": 3 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 3, "width": 16, "height": 13 }
+        },
+        {
+            "nameId": "SpaceInvaders_Buttons-2",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 212, "y": 3 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 3, "width": 13, "height": 13 }
+        },
+        {
+            "nameId": "SpaceInvaders_Buttons-3",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 231, "y": 3 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 3, "y": 0, "width": 13, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Buttons-4",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 3, "y": 22 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Buttons-5",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 22, "y": 22 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 13, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Buttons-6",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 41, "y": 22 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 3, "y": 0, "width": 13, "height": 13 }
+        },
+        {
+            "nameId": "SpaceInvaders_Buttons-7",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 60, "y": 22 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 13 }
+        },
+        {
+            "nameId": "SpaceInvaders_Buttons-8",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 79, "y": 22 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 13, "height": 13 }
+        },
+        {
+            "nameId": "SpaceInvaders_Health-0",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 98, "y": 22 },
+            "sourceSize": { "width": 32, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 1, "y": 3, "width": 30, "height": 9 }
+        },
+        {
+            "nameId": "SpaceInvaders_Health-1",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 133, "y": 22 },
+            "sourceSize": { "width": 32, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 1, "y": 3, "width": 30, "height": 9 }
+        },
+        {
+            "nameId": "SpaceInvaders_Health-2",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 168, "y": 22 },
+            "sourceSize": { "width": 32, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 1, "y": 3, "width": 30, "height": 9 }
+        },
+        {
+            "nameId": "SpaceInvaders_Health-3",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 203, "y": 22 },
+            "sourceSize": { "width": 32, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 1, "y": 3, "width": 30, "height": 9 }
+        },
+        {
+            "nameId": "SpaceInvaders_Health-4",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 3, "y": 41 },
+            "sourceSize": { "width": 32, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 1, "y": 3, "width": 30, "height": 9 }
+        },
+        {
+            "nameId": "SpaceInvaders_Health-5",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 38, "y": 41 },
+            "sourceSize": { "width": 32, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 1, "y": 3, "width": 30, "height": 9 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-0",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 73, "y": 41 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-1",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 92, "y": 41 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-2",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 111, "y": 41 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-3",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 130, "y": 41 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-4",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 149, "y": 41 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-5",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 168, "y": 41 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-6",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 187, "y": 41 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-7",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 206, "y": 41 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-8",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 225, "y": 41 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-9",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 3, "y": 60 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-10",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 22, "y": 60 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-11",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 41, "y": 60 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-12",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 60, "y": 60 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-13",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 79, "y": 60 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-14",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 98, "y": 60 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-15",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 117, "y": 60 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-16",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 136, "y": 60 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-17",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 155, "y": 60 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-18",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 174, "y": 60 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-19",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 193, "y": 60 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-20",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 212, "y": 60 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-21",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 231, "y": 60 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-22",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 3, "y": 79 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-23",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 22, "y": 79 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-24",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 41, "y": 79 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-25",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 60, "y": 79 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-26",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 79, "y": 79 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-27",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 98, "y": 79 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-28",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 117, "y": 79 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-29",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 136, "y": 79 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-30",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 155, "y": 79 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-31",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 174, "y": 79 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-32",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 193, "y": 79 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-33",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 212, "y": 79 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-34",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 231, "y": 79 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-35",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 3, "y": 98 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-36",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 22, "y": 98 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-37",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 41, "y": 98 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-38",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 60, "y": 98 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-39",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 79, "y": 98 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-40",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 98, "y": 98 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-41",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 117, "y": 98 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Icons-42",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 136, "y": 98 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 0, "width": 16, "height": 16 }
+        },
+        {
+            "nameId": "SpaceInvaders_Pickups-0",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 155, "y": 98 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 3, "y": 2, "width": 11, "height": 11 }
+        },
+        {
+            "nameId": "SpaceInvaders_Pickups-1",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 174, "y": 98 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 3, "y": 2, "width": 10, "height": 11 }
+        },
+        {
+            "nameId": "SpaceInvaders_Pickups-2",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 193, "y": 98 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 4, "y": 2, "width": 9, "height": 11 }
+        },
+        {
+            "nameId": "SpaceInvaders_Pickups-3",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 212, "y": 98 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 7, "y": 2, "width": 3, "height": 11 }
+        },
+        {
+            "nameId": "SpaceInvaders_Pickups-4",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 231, "y": 98 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 4, "y": 2, "width": 9, "height": 11 }
+        },
+        {
+            "nameId": "SpaceInvaders_Pickups-5",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 3, "y": 117 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 3, "y": 2, "width": 10, "height": 11 }
+        },
+        {
+            "nameId": "SpaceInvaders_Pickups-6",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 22, "y": 117 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 3, "y": 2, "width": 10, "height": 12 }
+        },
+        {
+            "nameId": "SpaceInvaders_Pickups-7",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 41, "y": 117 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 3, "y": 2, "width": 10, "height": 12 }
+        },
+        {
+            "nameId": "SpaceInvaders_Pickups-8",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 60, "y": 117 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 3, "y": 2, "width": 10, "height": 12 }
+        },
+        {
+            "nameId": "SpaceInvaders_Pickups-9",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 79, "y": 117 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 3, "y": 2, "width": 10, "height": 12 }
+        },
+        {
+            "nameId": "SpaceInvaders_Pickups-10",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 98, "y": 117 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 3, "y": 2, "width": 10, "height": 12 }
+        },
+        {
+            "nameId": "SpaceInvaders_Pickups-11",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 117, "y": 117 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 3, "y": 2, "width": 10, "height": 12 }
+        },
+        {
+            "nameId": "SpaceInvaders-0",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 136, "y": 117 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 3, "y": 4, "width": 11, "height": 8 }
+        },
+        {
+            "nameId": "SpaceInvaders-1",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 155, "y": 117 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 3, "y": 4, "width": 11, "height": 9 }
+        },
+        {
+            "nameId": "SpaceInvaders-2",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 174, "y": 117 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 7, "y": 5, "width": 1, "height": 6 }
+        },
+        {
+            "nameId": "SpaceInvaders-3",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 193, "y": 117 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 5, "width": 16, "height": 7 }
+        },
+        {
+            "nameId": "SpaceInvaders-4",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 212, "y": 117 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 4, "y": 4, "width": 9, "height": 10 }
+        },
+        {
+            "nameId": "SpaceInvaders-5",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 231, "y": 117 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 4, "y": 4, "width": 8, "height": 8 }
+        },
+        {
+            "nameId": "SpaceInvaders-6",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 3, "y": 136 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 4, "y": 4, "width": 8, "height": 8 }
+        },
+        {
+            "nameId": "SpaceInvaders-7",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 22, "y": 136 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 6, "y": 5, "width": 3, "height": 7 }
+        },
+        {
+            "nameId": "SpaceInvaders-8",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 41, "y": 136 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 3, "y": 4, "width": 13, "height": 12 }
+        },
+        {
+            "nameId": "SpaceInvaders-9",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 60, "y": 136 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 4, "width": 13, "height": 12 }
+        },
+        {
+            "nameId": "SpaceInvaders-10",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 79, "y": 136 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 7, "y": 5, "width": 3, "height": 7 }
+        },
+        {
+            "nameId": "SpaceInvaders-11",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 98, "y": 136 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 4, "y": 4, "width": 9, "height": 8 }
+        },
+        {
+            "nameId": "SpaceInvaders-12",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 117, "y": 136 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 3, "y": 4, "width": 11, "height": 8 }
+        },
+        {
+            "nameId": "SpaceInvaders-13",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 136, "y": 136 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 6, "y": 6, "width": 5, "height": 5 }
+        },
+        {
+            "nameId": "SpaceInvaders-14",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 155, "y": 136 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 3, "y": 4, "width": 13, "height": 12 }
+        },
+        {
+            "nameId": "SpaceInvaders-15",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 174, "y": 136 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 4, "width": 13, "height": 12 }
+        },
+        {
+            "nameId": "SpaceInvaders-16",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 193, "y": 136 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 4, "y": 4, "width": 8, "height": 8 }
+        },
+        {
+            "nameId": "SpaceInvaders-17",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 212, "y": 136 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 4, "y": 4, "width": 8, "height": 8 }
+        },
+        {
+            "nameId": "SpaceInvaders-18",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 231, "y": 136 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 2, "y": 4, "width": 13, "height": 9 }
+        },
+        {
+            "nameId": "SpaceInvaders-19",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 3, "y": 155 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 3, "y": 8, "width": 13, "height": 8 }
+        },
+        {
+            "nameId": "SpaceInvaders-20",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 22, "y": 155 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 8, "width": 13, "height": 8 }
+        },
+        {
+            "nameId": "SpaceInvaders-21",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 41, "y": 155 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 3, "width": 16, "height": 11 }
+        },
+        {
+            "nameId": "SpaceInvaders-22",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 60, "y": 155 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 0, "y": 3, "width": 16, "height": 11 }
+        },
+        {
+            "nameId": "SpaceInvaders-23",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 79, "y": 155 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 4, "y": 4, "width": 8, "height": 8 }
+        },
+        {
+            "nameId": "SpaceInvaders-24",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 98, "y": 155 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 4, "y": 4, "width": 8, "height": 8 }
+        },
+        {
+            "nameId": "SpaceInvaders-25",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 117, "y": 155 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 1, "y": 3, "width": 15, "height": 11 }
+        },
+        {
+            "nameId": "SpaceInvaders-26",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 136, "y": 155 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 5, "y": 12, "width": 8, "height": 4 }
+        },
+        {
+            "nameId": "SpaceInvaders-27",
+            "origin": { "x": 0, "y": 0 },
+            "position": { "x": 155, "y": 155 },
+            "sourceSize": { "width": 16, "height": 16 },
+            "padding": 0,
+            "trimmed": false,
+            "trimRec": { "x": 3, "y": 12, "width": 8, "height": 4 }
+        }
+    ]
+}
